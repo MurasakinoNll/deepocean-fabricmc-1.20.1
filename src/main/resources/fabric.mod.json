@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "haraks-deep-oceans",
+	"version": "1.0.0",
+	"name": "Haraks deep oceans",
+	"description": "deep sea expansion",
+	"authors": [
+		"Haral"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/haraks-deep-oceans/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"harak.deepocean.HaraksDeepOceans"
+		],
+		"client": [
+			"harak.deepocean.HaraksDeepOceansClient"
+		],
+		"fabric-datagen": [
+			"harak.deepocean.HaraksDeepOceansDataGenerator"
+		]
+	},
+	"mixins": [
+		"haraks-deep-oceans.mixins.json",
+		{
+			"config": "haraks-deep-oceans.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
