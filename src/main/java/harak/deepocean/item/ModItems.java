@@ -1,5 +1,6 @@
-package harak.deepocean;
+package harak.deepocean.item;
 
+import harak.deepocean.HaraksDeepOceans;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

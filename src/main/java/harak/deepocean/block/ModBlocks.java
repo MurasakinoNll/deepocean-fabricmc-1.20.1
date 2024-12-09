@@ -1,5 +1,7 @@
-package harak.deepocean;
+package harak.deepocean.block;
 
+import harak.deepocean.HaraksDeepOceans;
+import harak.deepocean.block.custom.DeepSeaKelp;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -14,6 +16,8 @@ public class ModBlocks {
 
     public static final Block HARDSTONE = registerBlock("hardstone",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block SHORTDEEPSEAKELP = registerBlock("shortdeepseakelp", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(7)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

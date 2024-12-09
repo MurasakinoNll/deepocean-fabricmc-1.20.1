@@ -1,5 +1,8 @@
-// 1.20.1	2024-12-07T17:06:51.396854172	Haraks deep oceans/Model Definitions
+// 1.20.1	2024-12-09T20:08:15.036951035	Haraks deep oceans/Model Definitions
 bb519c271548a25b4fd620d532e0e58704738cdf assets/haraks-deep-oceans/models/item/urchin_flail.json
+54dd8cba7c51bb2ad0f764357908eb6859a364f0 assets/haraks-deep-oceans/blockstates/shortdeepseakelp.json
 857ad870ffdbe2744fcf6c338ed0131629e47c38 assets/haraks-deep-oceans/blockstates/hardstone.json
 38c29a852c448cb6b89952b6ca220e27906002b7 assets/haraks-deep-oceans/models/block/hardstone.json
 2bed2668f1155edab4acfa759cf6deace12496f6 assets/haraks-deep-oceans/models/item/hardstone.json
+152247792b7323da9f9010ff0f515a08e1b58f31 assets/haraks-deep-oceans/models/item/shortdeepseakelp.json
+b61eedac8e618dcec7d4c9dab8794d6313e7705f assets/haraks-deep-oceans/models/block/shortdeepseakelp.json

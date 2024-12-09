@@ -1,5 +1,7 @@
 package harak.deepocean;
 
+import harak.deepocean.block.ModBlocks;
+import harak.deepocean.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

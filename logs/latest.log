@@ -1,5 +1,7 @@
-[17:06:38] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
-[17:06:38] [main/INFO] (FabricLoader) Loading 59 mods:
+[20:07:59] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
+[20:07:59] [ForkJoinPool-1-worker-5/WARN] (FabricLoader/Metadata) The mod "haraks-deep-oceans" contains invalid entries in its mod json:
+- Unsupported root entry "refmap" at line 44 column 10
+[20:08:00] [main/INFO] (FabricLoader) Loading 59 mods:
 	- fabric-api 0.92.2+1.20.1
 	- fabric-api-base 0.4.31+1802ada577
 	- fabric-api-lookup-api-v1 1.6.36+1802ada577
@@ -56,17 +58,17 @@
 	- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
 	- fabricloader 0.16.9
 	- haraks-deep-oceans 1.0.0
-	- java 21
+	- java 17
 	- minecraft 1.20.1
 	- mixinextras 0.4.1
-[17:06:38] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/haraku/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[17:06:38] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:06:39] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:06:39] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:06:40] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:06:46] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 238 milliseconds
-[17:06:48] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:06:50] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[20:08:00] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/haraku/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:08:00] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:08:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[20:08:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[20:08:02] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:08:09] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 298 milliseconds
+[20:08:12] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:08:13] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -84,20 +86,20 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[17:06:50] [Render thread/INFO] (Minecraft) Setting user: Player731
-[17:06:50] [Render thread/INFO] (haraks-deep-oceans) registering blocks
-[17:06:50] [Render thread/INFO] (haraks-deep-oceans) Hello deep ocean
-[17:06:50] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[17:06:50] [Render thread/INFO] (FabricDataGenHelper) Running data generator for haraks-deep-oceans
-[17:06:50] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Tags for minecraft:block
-[17:06:51] [Render thread/INFO] (Minecraft) Haraks deep oceans/Tags for minecraft:block finished after 447 ms
-[17:06:51] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Tags for minecraft:item
-[17:06:51] [Render thread/INFO] (Minecraft) Haraks deep oceans/Tags for minecraft:item finished after 0 ms
-[17:06:51] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Block Loot Tables
-[17:06:51] [Render thread/INFO] (Minecraft) Haraks deep oceans/Block Loot Tables finished after 39 ms
-[17:06:51] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Recipes
-[17:06:51] [Render thread/INFO] (Minecraft) Haraks deep oceans/Recipes finished after 0 ms
-[17:06:51] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Model Definitions
-[17:06:51] [Render thread/INFO] (Minecraft) Haraks deep oceans/Model Definitions finished after 52 ms
-[17:06:51] [Render thread/INFO] (Minecraft) All providers took: 543 ms
-[17:06:51] [Render thread/INFO] (Minecraft) Caching: total files: 5, old count: 0, new count: 6, removed stale: 0, written: 5
+[20:08:13] [Render thread/INFO] (Minecraft) Setting user: Player798
+[20:08:13] [Render thread/INFO] (haraks-deep-oceans) registering blocks
+[20:08:13] [Render thread/INFO] (haraks-deep-oceans) Hello deep ocean
+[20:08:13] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[20:08:14] [Render thread/INFO] (FabricDataGenHelper) Running data generator for haraks-deep-oceans
+[20:08:14] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Tags for minecraft:block
+[20:08:14] [Render thread/INFO] (Minecraft) Haraks deep oceans/Tags for minecraft:block finished after 352 ms
+[20:08:14] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Tags for minecraft:item
+[20:08:14] [Render thread/INFO] (Minecraft) Haraks deep oceans/Tags for minecraft:item finished after 0 ms
+[20:08:14] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Block Loot Tables
+[20:08:14] [Render thread/INFO] (Minecraft) Haraks deep oceans/Block Loot Tables finished after 51 ms
+[20:08:14] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Recipes
+[20:08:14] [Render thread/INFO] (Minecraft) Haraks deep oceans/Recipes finished after 1 ms
+[20:08:14] [Render thread/INFO] (Minecraft) Starting provider: Haraks deep oceans/Model Definitions
+[20:08:15] [Render thread/INFO] (Minecraft) Haraks deep oceans/Model Definitions finished after 75 ms
+[20:08:15] [Render thread/INFO] (Minecraft) All providers took: 483 ms
+[20:08:15] [Render thread/INFO] (Minecraft) Caching: total files: 8, old count: 7, new count: 9, removed stale: 0, written: 1
