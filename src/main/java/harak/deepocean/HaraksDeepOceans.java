@@ -12,6 +12,7 @@ public class HaraksDeepOceans implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.initialize();
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello deep ocean");

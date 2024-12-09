@@ -27,6 +27,9 @@ loom {
 			sourceSet sourceSets.client
 		}
 	}
+	mixin {
+		defaultRefmapName = "haraks-deep-oceans.refmap.json"
+	}
 
 }
 

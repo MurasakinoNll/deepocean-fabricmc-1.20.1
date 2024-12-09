@@ -3,7 +3,8 @@
 	"package": "harak.deepocean.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"StrongholdStructureMixin",
+		"MineshaftStructureMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

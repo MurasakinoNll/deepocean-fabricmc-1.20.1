@@ -12,7 +12,7 @@
   "disable_mob_generation": false,
   "legacy_random_source": false,
   "noise": {
-    "height": 1216,
+    "height": 1472,
     "min_y": -256,
     "size_horizontal": 1,
     "size_vertical": 2
@@ -332,7 +332,7 @@
     }
   },
   "ore_veins_enabled": true,
-  "sea_level": 80,
+  "sea_level": 63,
   "spawn_target": [
     {
       "continentalness": [
