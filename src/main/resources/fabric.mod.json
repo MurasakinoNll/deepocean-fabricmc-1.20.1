@@ -25,7 +25,7 @@
 			"harak.deepocean.HaraksDeepOceansDataGenerator"
 		],
 		"terrablender": [
-			"harak.deepocean.world.biome.ModTerrablenderApi"
+			"harak.deepocean.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
