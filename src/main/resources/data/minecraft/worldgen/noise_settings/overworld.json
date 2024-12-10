@@ -412,7 +412,7 @@
           "then_run": {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "haraks-deep-ocean:blocks/hardstone"
+              "Name": "haraks-deep-ocean:blocks/abyssrock"
             }
           }
         }

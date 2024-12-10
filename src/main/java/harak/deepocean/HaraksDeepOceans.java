@@ -17,6 +17,7 @@ public class HaraksDeepOceans implements ModInitializer {
 
 		ModItems.initialize();
 		ModBlocks.registerModBlocks();
+		ModGroup.registerGroups();
 		LOGGER.info("Hello deep ocean");
 	}
 }

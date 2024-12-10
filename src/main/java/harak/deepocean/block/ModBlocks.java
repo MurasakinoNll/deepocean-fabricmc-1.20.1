@@ -14,11 +14,16 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block HARDSTONE = registerBlock("hardstone",
-            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
-    public static final Block SHORTDEEPSEAKELP = registerBlock("shortdeepseakelp", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(7)));
-
-
+    public static final Block ABYSSROCK = registerBlock("abyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block ABYSSQUARTZ = registerBlock("abyssquartz", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block ABYSSALBRICKS = registerBlock("abyssalbricks", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block CRACKEDABYSSALBRICKS = registerBlock("crackedabyssalbricks", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block PALEABYSSROCK = registerBlock("paleabyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block GLOWINGCORAL = registerBlock("glowingcoral", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block MUDDYABYSSROCK = registerBlock("muddyabyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block SHORTDEEPSEAKELP = registerBlock("shortdeepseakelp", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(7).noCollision()));
+    public static final Block TALLDEEPSEAKELP = registerBlock("talldeepseakelp", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(8).noCollision()));
+    public static final Block ASCOMYCOTA = registerBlock("ascomycota", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(8).noCollision()));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(HaraksDeepOceans.MOD_ID, name), block);

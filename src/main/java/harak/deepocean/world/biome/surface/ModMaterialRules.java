@@ -10,7 +10,7 @@ public class ModMaterialRules {
         return net.minecraft.world.gen.surfacebuilder.MaterialRules.sequence(
                  MaterialRules.condition(
                      MaterialRules.biome(ModBiomes.DEEPOCEAN),
-                     MaterialRules.block(ModBlocks.HARDSTONE.getDefaultState())
+                     MaterialRules.block(ModBlocks.ABYSSROCK.getDefaultState())
                  )
 
         );
