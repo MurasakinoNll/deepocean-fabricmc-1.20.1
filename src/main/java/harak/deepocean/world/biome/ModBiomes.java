@@ -1,6 +1,7 @@
 package harak.deepocean.world.biome;
 
 import harak.deepocean.HaraksDeepOceans;
+import harak.deepocean.world.ModPlacedFeatures;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registerable;
@@ -56,8 +57,13 @@ public class ModBiomes {
 
         // Add seagrass features typical for deep oceans
         generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, OceanPlacedFeatures.SEAGRASS_DEEP);
+        generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.SDSKP);
+        generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.TDSKP);
+        generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.ASCOMYCOTA);
         DefaultBiomeFeatures.addSeagrassOnStone(generationBuilder);
+
         DefaultBiomeFeatures.addKelp(generationBuilder);
+
 
         // Effects similar to a deep ocean: darker water, etc.
         BiomeEffects effects = new BiomeEffects.Builder()
@@ -83,6 +89,7 @@ public class ModBiomes {
     private static void addBasicFeatures(GenerationSettings.LookupBackedBuilder generationBuilder) {
         // Add basic features such as lakes, springs, etc. if needed.
         // This would normally mirror what vanilla does for ocean biomes.
+
     }
 
     private static int getSkyColor(float temperature) {

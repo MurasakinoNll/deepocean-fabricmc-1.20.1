@@ -19,7 +19,7 @@ public class ModGroup {
                   .displayName(Text.literal("Deep Oceans"))
                   .entries(((displayContext, entries) -> {
                       entries.add(ModBlocks.ABYSSROCK);
-                      entries.add(ModBlocks.ABYSSQUARTZ);
+                      entries.add(ModBlocks.ABYSSQUARTS);
                       entries.add(ModBlocks.ABYSSALBRICKS);
                       entries.add(ModBlocks.CRACKEDABYSSALBRICKS);
                       entries.add(ModBlocks.TALLDEEPSEAKELP);

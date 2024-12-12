@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block ABYSSROCK = registerBlock("abyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
-    public static final Block ABYSSQUARTZ = registerBlock("abyssquartz", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block ABYSSQUARTS = registerBlock("abyssquarts", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block ABYSSALBRICKS = registerBlock("abyssalbricks", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block CRACKEDABYSSALBRICKS = registerBlock("crackedabyssalbricks", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block PALEABYSSROCK = registerBlock("paleabyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));

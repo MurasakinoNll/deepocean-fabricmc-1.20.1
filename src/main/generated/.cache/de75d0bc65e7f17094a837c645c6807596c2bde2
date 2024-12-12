@@ -1,15 +1,13 @@
-// 1.20.1	2024-12-10T02:35:29.815912018	Haraks deep oceans/Model Definitions
-73645819dab2cb374bf957eba1f4811da646dccb assets/haraks-deep-oceans/models/item/abyssquartz.json
+// 1.20.1	2024-12-12T12:46:53.897149715	Haraks deep oceans/Model Definitions
 da00787ac83d7bcfa4aeafec0fe9e26d8686e226 assets/haraks-deep-oceans/models/block/ascomycota.json
 6e3b50ff88bc00a2bd19410cd67cafd784b6d28a assets/haraks-deep-oceans/blockstates/abyssrock.json
 c58496a75f9a3176ff5b82d02d27f5b318f2d6ef assets/haraks-deep-oceans/models/item/abyssalbricks.json
 aab1e38813585fcb57c3dc3af003905ec4ec499b assets/haraks-deep-oceans/models/item/talldeepseakelp.json
-4e50161616b32f0595cf4859136d5f5f0e9eb11a assets/haraks-deep-oceans/models/item/deepsea_quartz.json
 7ba0582133dab3530f05c899b64e6b19a50940de assets/haraks-deep-oceans/models/item/paleabyssrock.json
 c4604c8ae705304a45f59ecb4c327cedb38966c9 assets/haraks-deep-oceans/blockstates/ascomycota.json
+27e661ed1a4794087ad5902508815db1d1a38117 assets/haraks-deep-oceans/blockstates/abyssquarts.json
 165a73ba259b41a650d2f7de1fe9f08542fffc9b assets/haraks-deep-oceans/models/item/glowingcoral.json
 ba26afd0d6c719de5e29c605eb90f6d97b68ca5f assets/haraks-deep-oceans/models/block/abyssrock.json
-593d5a6f5cc46b9360c332a31b9440c9d6953d9b assets/haraks-deep-oceans/blockstates/abyssquartz.json
 79bc81fd5abb86b7906e08c7354e25972345e537 assets/haraks-deep-oceans/models/block/crackedabyssalbricks.json
 68dcc981e2dbf3d85c70a103a4cad4ef886112db assets/haraks-deep-oceans/models/item/abyssrock.json
 4ab08f3e15f01cdc1e46813aac7eb822ee4ce696 assets/haraks-deep-oceans/models/block/talldeepseakelp.json
@@ -25,11 +23,10 @@ c06a6e3e78cf7bb4a24659d6c19d99bbfc066028 assets/haraks-deep-oceans/blockstates/p
 54dd8cba7c51bb2ad0f764357908eb6859a364f0 assets/haraks-deep-oceans/blockstates/shortdeepseakelp.json
 4c20884b96256e2527ed067ac15328a289632fd5 assets/haraks-deep-oceans/models/item/crackedabyssalbricks.json
 d6eea1ef5c7f2ba22c1dee16f0c4e3ae1f266512 assets/haraks-deep-oceans/blockstates/abyssalbricks.json
+4208270e0e11e53b870698ce587a064c08b23f4f assets/haraks-deep-oceans/models/item/abyssquarts.json
 cb81c11e9cad9c1a503c3e0581dec36077b9690f assets/haraks-deep-oceans/blockstates/crackedabyssalbricks.json
-584457f22855ff77d051ed91d987503df26d67a3 assets/haraks-deep-oceans/blockstates/deepsea_quartz.json
+647c6ec0a53dbc2611ff15e98b5902dbe991695d assets/haraks-deep-oceans/models/block/abyssquarts.json
 d21d267e3e493634b9795ef2d86a037d563b473b assets/haraks-deep-oceans/models/item/muddyabyssrock.json
-bb519c271548a25b4fd620d532e0e58704738cdf assets/haraks-deep-oceans/models/item/urchin_flail.json
 705f184bce6b39734169a21d3404d13248aa59d2 assets/haraks-deep-oceans/blockstates/talldeepseakelp.json
-80db7a5503d9c21a9704d95a661766f3300799cb assets/haraks-deep-oceans/models/block/abyssquartz.json
+bb519c271548a25b4fd620d532e0e58704738cdf assets/haraks-deep-oceans/models/item/urchin_flail.json
 152247792b7323da9f9010ff0f515a08e1b58f31 assets/haraks-deep-oceans/models/item/shortdeepseakelp.json
-760b2e210b9fd47572de2c8c2c26dac143b4fbe3 assets/haraks-deep-oceans/models/block/deepsea_quartz.json

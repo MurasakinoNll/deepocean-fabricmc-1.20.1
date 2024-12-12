@@ -52,6 +52,9 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_deep",
+      "haraks-deep-oceans:sdskp",
+      "haraks-deep-oceans:tdskp",
+      "haraks-deep-oceans:ascomycota",
       "minecraft:seagrass_simple",
       "minecraft:kelp_cold"
     ]
