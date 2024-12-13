@@ -10,14 +10,14 @@ import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> SHORTDEEPSEAGRASS_SIMPLE = ConfiguredFeatures.of("shortdeepseagrass_simple");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ASCOMYCOTA_SIMPLE = ConfiguredFeatures.of("ascomycota_simple");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> TALLDEEPSEAGRASS_SIMPLE = ConfiguredFeatures.of("talldeepseagrass_simple");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SHORTDEEPSEAGRASS = registryKey("shortdeepseagrass");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ASCOMYCOTA = registryKey("ascomycota");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TALLDEEPSEAGRASS = registryKey("talldeepseagrass");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context){
-        register(context, ASCOMYCOTA_SIMPLE, Feature.RANDOM_PATCH, ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.ASCOMYCOTA.getDefaultState())))));
-        register(context, TALLDEEPSEAGRASS_SIMPLE, Feature.RANDOM_PATCH, ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALLDEEPSEAGRASS.getDefaultState())))));
-        register(context, SHORTDEEPSEAGRASS_SIMPLE, Feature.RANDOM_PATCH, ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SHORTDEEPSEAGRASS.getDefaultState())))));
+        register(context, ASCOMYCOTA, Feature.RANDOM_PATCH, ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.ASCOMYCOTA.getDefaultState())))));
+        register(context, TALLDEEPSEAGRASS, Feature.RANDOM_PATCH, ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALLDEEPSEAGRASS.getDefaultState())))));
+        register(context, SHORTDEEPSEAGRASS, Feature.RANDOM_PATCH, ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SHORTDEEPSEAGRASS.getDefaultState())))));
 
 
     }
@@ -32,14 +32,14 @@ public class ModConfiguredFeatures {
 }
 
 /*
-  public static final RegistryKey<ConfiguredFeature<?, ?>> SHORTDEEPSEAGRASS_SIMPLE = ConfiguredFeatures.of("shortdeepseagrass_simple");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ASCOMYCOTA_SIMPLE = ConfiguredFeatures.of("ascomycota_simple");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> TALLDEEPSEAGRASS_SIMPLE = ConfiguredFeatures.of("talldeepseagrass_simple");
+  public static final RegistryKey<ConfiguredFeature<?, ?>> SHORTDEEPSEAGRASS = ConfiguredFeatures.of("shortdeepseagrass");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ASCOMYCOTA = ConfiguredFeatures.of("ascomycota");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TALLDEEPSEAGRASS = ConfiguredFeatures.of("talldeepseagrass");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> featureRegisterable) {
-        ConfiguredFeatures.register(featureRegisterable, SHORTDEEPSEAGRASS_SIMPLE, Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SHORTDEEPSEAGRASS)));
-        ConfiguredFeatures.register(featureRegisterable, TALLDEEPSEAGRASS_SIMPLE, Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALLDEEPSEAGRASS)));
-        ConfiguredFeatures.register(featureRegisterable, ASCOMYCOTA_SIMPLE, Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.ASCOMYCOTA)));
+        ConfiguredFeatures.register(featureRegisterable, SHORTDEEPSEAGRASS, Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SHORTDEEPSEAGRASS)));
+        ConfiguredFeatures.register(featureRegisterable, TALLDEEPSEAGRASS, Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALLDEEPSEAGRASS)));
+        ConfiguredFeatures.register(featureRegisterable, ASCOMYCOTA, Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.ASCOMYCOTA)));
 
     }
  */

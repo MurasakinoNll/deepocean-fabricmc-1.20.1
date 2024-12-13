@@ -18,9 +18,9 @@ import java.util.List;
 
 public class ModPlacedFeatures {
 
-    public static final RegistryKey<PlacedFeature> SHORTDEEPSEAGRASS = PlacedFeatures.of("shortdeepseagrass");
-    public static final RegistryKey<PlacedFeature> TALLDEEPSEAGRASS = PlacedFeatures.of("talldeepseagrass");
-    public static final RegistryKey<PlacedFeature> ASCOMYCOTA = PlacedFeatures.of("ascomycota");
+    public static final RegistryKey<PlacedFeature> SHORTDEEPSEAGRASS = registryKey("shortdeepseagrass");
+    public static final RegistryKey<PlacedFeature> TALLDEEPSEAGRASS = registryKey("talldeepseagrass");
+    public static final RegistryKey<PlacedFeature> ASCOMYCOTA = registryKey("ascomycota");
     public static List<PlacementModifier> seagrassModifiers(int count) {
         return List.of(SquarePlacementModifier.of(), PlacedFeatures.OCEAN_FLOOR_WG_HEIGHTMAP, CountPlacementModifier.of(count), BiomePlacementModifier.of());
     }
@@ -28,9 +28,9 @@ public class ModPlacedFeatures {
     public static void bootstrap(Registerable<PlacedFeature> context){
         var ConfiguredFeatureRegistryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
-       register(context, ASCOMYCOTA, ConfiguredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.ASCOMYCOTA_SIMPLE), ModPlacedFeatures.seagrassModifiers(50));
-       register(context, SHORTDEEPSEAGRASS, ConfiguredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.SHORTDEEPSEAGRASS_SIMPLE), ModPlacedFeatures.seagrassModifiers(24));
-       register(context, TALLDEEPSEAGRASS, ConfiguredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.TALLDEEPSEAGRASS_SIMPLE), ModPlacedFeatures.seagrassModifiers(24));
+       register(context, ASCOMYCOTA, ConfiguredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.ASCOMYCOTA), ModPlacedFeatures.seagrassModifiers(50));
+       register(context, SHORTDEEPSEAGRASS, ConfiguredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.SHORTDEEPSEAGRASS), ModPlacedFeatures.seagrassModifiers(24));
+       register(context, TALLDEEPSEAGRASS, ConfiguredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.TALLDEEPSEAGRASS), ModPlacedFeatures.seagrassModifiers(24));
 
     }
 
@@ -67,9 +67,9 @@ public class ModOceanPlacedFeatures {
 
     public static void bootstrap(Registerable<PlacedFeature> featureRegisterable){
         RegistryEntryLookup<ConfiguredFeature<?, ?>> registryEntryLookup = featureRegisterable.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
-        RegistryEntry.Reference<ConfiguredFeature<?, ?>> reference2 = registryEntryLookup.getOrThrow(ModOceanConfiguredFeatures.SHORTDEEPSEAGRASS_SIMPLE);
-        RegistryEntry.Reference<ConfiguredFeature<?, ?>> reference3 = registryEntryLookup.getOrThrow(ModOceanConfiguredFeatures.TALLDEEPSEAGRASS_SIMPLE);
-        RegistryEntry.Reference<ConfiguredFeature<?, ?>> reference5 = registryEntryLookup.getOrThrow(ModOceanConfiguredFeatures.ASCOMYCOTA_SIMPLE);
+        RegistryEntry.Reference<ConfiguredFeature<?, ?>> reference2 = registryEntryLookup.getOrThrow(ModOceanConfiguredFeatures.SHORTDEEPSEAGRASS);
+        RegistryEntry.Reference<ConfiguredFeature<?, ?>> reference3 = registryEntryLookup.getOrThrow(ModOceanConfiguredFeatures.TALLDEEPSEAGRASS);
+        RegistryEntry.Reference<ConfiguredFeature<?, ?>> reference5 = registryEntryLookup.getOrThrow(ModOceanConfiguredFeatures.ASCOMYCOTA);
         PlacedFeatures.register(featureRegisterable, TALLDEEPSEAGRASS, reference3, seagrassModifiers(80));
         PlacedFeatures.register(featureRegisterable, SHORTDEEPSEAGRASS, reference2, seagrassModifiers(80));
         PlacedFeatures.register(featureRegisterable, ASCOMYCOTA, reference5, seagrassModifiers(80));
