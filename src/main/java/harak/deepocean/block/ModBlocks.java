@@ -1,11 +1,11 @@
 package harak.deepocean.block;
 
 import harak.deepocean.HaraksDeepOceans;
-import harak.deepocean.block.custom.DeepSeaKelp;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.SeagrassBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -21,9 +21,9 @@ public class ModBlocks {
     public static final Block PALEABYSSROCK = registerBlock("paleabyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block GLOWINGCORAL = registerBlock("glowingcoral", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block MUDDYABYSSROCK = registerBlock("muddyabyssrock", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
-    public static final Block SHORTDEEPSEAKELP = registerBlock("shortdeepseakelp", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(7).noCollision()));
-    public static final Block TALLDEEPSEAKELP = registerBlock("talldeepseakelp", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(8).noCollision()));
-    public static final Block ASCOMYCOTA = registerBlock("ascomycota", new DeepSeaKelp(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(8).noCollision()));
+    public static final Block SHORTDEEPSEAGRASS = registerBlock("shortdeepseagrass", new SeagrassBlock(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(7).noCollision()));
+    public static final Block TALLDEEPSEAGRASS = registerBlock("talldeepseagrass", new SeagrassBlock(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(8).noCollision()));
+    public static final Block ASCOMYCOTA = registerBlock("ascomycota", new SeagrassBlock(FabricBlockSettings.copyOf(Blocks.SEAGRASS).luminance(8).noCollision()));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(HaraksDeepOceans.MOD_ID, name), block);

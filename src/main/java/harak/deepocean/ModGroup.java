@@ -11,8 +11,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import static net.minecraft.registry.Registries.*;
-
 public class ModGroup {
   public static final ItemGroup DEEPOCEAN_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(HaraksDeepOceans.MOD_ID, "abyss"),
           FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.GLOWINGCORAL))
@@ -22,11 +20,11 @@ public class ModGroup {
                       entries.add(ModBlocks.ABYSSQUARTS);
                       entries.add(ModBlocks.ABYSSALBRICKS);
                       entries.add(ModBlocks.CRACKEDABYSSALBRICKS);
-                      entries.add(ModBlocks.TALLDEEPSEAKELP);
+                      entries.add(ModBlocks.TALLDEEPSEAGRASS);
                       entries.add(ModBlocks.PALEABYSSROCK);
                       entries.add(ModBlocks.GLOWINGCORAL);
                       entries.add(ModBlocks.MUDDYABYSSROCK);
-                      entries.add(ModBlocks.SHORTDEEPSEAKELP);
+                      entries.add(ModBlocks.SHORTDEEPSEAGRASS);
                       entries.add(ModBlocks.ASCOMYCOTA);
                   }))
                   .build());

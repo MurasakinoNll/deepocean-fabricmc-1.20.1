@@ -11,6 +11,7 @@ public class ModMaterialRules {
                  MaterialRules.condition(
                      MaterialRules.biome(ModBiomes.DEEPOCEAN),
                      MaterialRules.block(ModBlocks.ABYSSROCK.getDefaultState())
+                         
                  )
 
         );
