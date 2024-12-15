@@ -51,10 +51,10 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:seagrass_deep",
+      "haraks-deep-oceans:talldeepseagrass",
       "haraks-deep-oceans:ascomycota",
-      "minecraft:seagrass_simple",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "haraks-deep-oceans:shortdeepseagrass"
     ]
   ],
   "has_precipitation": true,

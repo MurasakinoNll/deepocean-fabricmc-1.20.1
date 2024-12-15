@@ -1,10 +1,10 @@
-// 1.20.1	2024-12-13T23:40:54.494789023	Haraks deep oceans/Model Definitions
+// 1.20.1	2024-12-13T23:57:38.074886167	Haraks deep oceans/Model Definitions
 da00787ac83d7bcfa4aeafec0fe9e26d8686e226 assets/haraks-deep-oceans/models/block/ascomycota.json
 6e3b50ff88bc00a2bd19410cd67cafd784b6d28a assets/haraks-deep-oceans/blockstates/abyssrock.json
 c58496a75f9a3176ff5b82d02d27f5b318f2d6ef assets/haraks-deep-oceans/models/item/abyssalbricks.json
 7ba0582133dab3530f05c899b64e6b19a50940de assets/haraks-deep-oceans/models/item/paleabyssrock.json
-27e661ed1a4794087ad5902508815db1d1a38117 assets/haraks-deep-oceans/blockstates/abyssquarts.json
 c4604c8ae705304a45f59ecb4c327cedb38966c9 assets/haraks-deep-oceans/blockstates/ascomycota.json
+27e661ed1a4794087ad5902508815db1d1a38117 assets/haraks-deep-oceans/blockstates/abyssquarts.json
 165a73ba259b41a650d2f7de1fe9f08542fffc9b assets/haraks-deep-oceans/models/item/glowingcoral.json
 ba26afd0d6c719de5e29c605eb90f6d97b68ca5f assets/haraks-deep-oceans/models/block/abyssrock.json
 79bc81fd5abb86b7906e08c7354e25972345e537 assets/haraks-deep-oceans/models/block/crackedabyssalbricks.json

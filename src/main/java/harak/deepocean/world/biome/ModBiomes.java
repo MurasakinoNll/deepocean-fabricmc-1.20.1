@@ -56,11 +56,12 @@ public class ModBiomes {
         DefaultBiomeFeatures.addDefaultVegetation(generationBuilder);
 
         // Add seagrass features typical for deep oceans
-        generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, OceanPlacedFeatures.SEAGRASS_DEEP);
+        generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.TALLDEEPSEAGRASS);
         generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.ASCOMYCOTA);
-        DefaultBiomeFeatures.addSeagrassOnStone(generationBuilder);
+
 
         DefaultBiomeFeatures.addKelp(generationBuilder);
+        generationBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.SHORTDEEPSEAGRASS);
 
 
         // Effects similar to a deep ocean: darker water, etc.
